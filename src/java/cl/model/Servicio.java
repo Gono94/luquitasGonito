@@ -23,7 +23,7 @@ public class Servicio implements ServicioLocal {
         lista.add(new Cliente("Jorge","Caceres"));
         
     }
-
+//
     @Override
     public void agregarCliente(Cliente cli) {
         
@@ -40,6 +40,9 @@ public class Servicio implements ServicioLocal {
     public Cliente buscar(String rut) {
         return null;
     }
+
+
+    
 
   
     
